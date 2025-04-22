@@ -6,7 +6,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "",
+  SESSION_ID: process.env.SESSION_ID || "INCONNU~XD~IbF0wLhY#jUXk-4KBt43v5hiv9me3axoLDhf3EF3b4lsI-_mBm58",
   PREFIX: process.env.PREFIX || '.',
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true, 
   AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY !== undefined ? process.env.AUTO_STATUS_REPLY === 'true' : true,
@@ -28,7 +28,7 @@ const config = {
   MENU_IMAGE: process.env.MENU_IMAGE || "https://files.catbox.moe/230q0c.jpg",
   DESCRIPTION: process.env.DESCRIPTION || "WELCOME TO INCONNU-XD",
   OWNER_NAME: process.env.OWNER_NAME || "INCONNU-XD",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "554488138425",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "2250143535096",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
 };
